@@ -8,19 +8,23 @@ A modern mobile e-commerce application built with a focus on electronics and tec
 
 <div align="center">
   <div style="display: inline-block; margin: 10px;">
-    <img src="screenshots/home.png" width="200" alt="Home Screen"/>
+    <img src="readme_assets/Screenshot_1758072175.png" width="200" alt="Welcome Screen"/>
     <p><strong>Home Screen</strong></p>
   </div>
   <div style="display: inline-block; margin: 10px;">
-    <img src="screenshots/login.png" width="200" alt="Login Screen"/>
+    <img src="readme_assets/Screenshot_1758072363.png" width="200" alt="Login Screen"/>
     <p><strong>Login</strong></p>
   </div>
   <div style="display: inline-block; margin: 10px;">
-    <img src="screenshots/signup.png" width="200" alt="Sign Up Screen"/>
+    <img src="readme_assets/Screenshot_1758072373.png" width="200" alt="Sign Up Screen"/>
     <p><strong>Sign Up</strong></p>
   </div>
   <div style="display: inline-block; margin: 10px;">
-    <img src="screenshots/products.png" width="200" alt="Products Screen"/>
+    <img src="readme_assets/Screenshot_1758072400.png" width="200" alt="Products Screen"/>
+    <p><strong>Products</strong></p>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="readme_assets/Screenshot_1758072407.png" width="200" alt="Products Screen"/>
     <p><strong>Products</strong></p>
   </div>
 </div>
