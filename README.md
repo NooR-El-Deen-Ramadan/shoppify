@@ -6,9 +6,24 @@ A modern mobile e-commerce application built with a focus on electronics and tec
 
 ## 📱 Screenshots
 
-| Home Screen | Login | Sign Up | Products |
-|-------------|-------|---------|----------|
-| ![Home](screenshots/home.png) | ![Login](screenshots/login.png) | ![SignUp](screenshots/signup.png) | ![Products](screenshots/products.png) |
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="screenshots/home.png" width="200" alt="Home Screen"/>
+    <p><strong>Home Screen</strong></p>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="screenshots/login.png" width="200" alt="Login Screen"/>
+    <p><strong>Login</strong></p>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="screenshots/signup.png" width="200" alt="Sign Up Screen"/>
+    <p><strong>Sign Up</strong></p>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="screenshots/products.png" width="200" alt="Products Screen"/>
+    <p><strong>Products</strong></p>
+  </div>
+</div>
 
 ## ✨ Features
 
@@ -47,61 +62,45 @@ A modern mobile e-commerce application built with a focus on electronics and tec
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React Native / Flutter (Mobile)
-- **Backend**: Node.js / Express
-- **Database**: MongoDB / PostgreSQL
-- **Authentication**: JWT
-- **Payment**: Stripe / PayPal integration
-- **State Management**: Redux / Context API
-- **Navigation**: React Navigation
+- **Frontend**: Flutter
+
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 ```bash
-- Node.js (v14 or higher)
-- npm or yarn
-- React Native CLI / Flutter SDK
-- Android Studio / Xcode
+- Flutter SDK (v3.0 or higher)
+- Dart (v2.17 or higher)
+- Android Studio / Vs Code
+- Git
 ```
 
 ### Installation
 
-1. **Clone the repository**
+ **Clone the repository**
 ```bash
 git clone https://github.com/NooR-El-Deen-Ramadan/shoppify.git
 cd shoppify
 ```
 
-2. **Install dependencies**
-```bash
-npm install
-# or
-yarn install
+
 ```
 
-3. **Font Setup**
+ **Font Setup**
 ```bash
 # Make sure Suwannaphum font is properly installed
-# For React Native: Place font files in android/app/src/main/assets/fonts/
 # For Flutter: Add to pubspec.yaml under fonts section
 ```
 
-4. **Environment Setup**
+ **Environment Setup**
 ```bash
 cp .env.example .env
 # Configure your environment variables
 ```
 
-4. **Run the application**
+ **Run the application**
 
-For React Native:
-```bash
-# iOS
-npx react-native run-ios
 
-# Android
-npx react-native run-android
 ```
 
 For Flutter:
@@ -113,18 +112,23 @@ flutter run
 
 ```
 shoppify/
-├── src/
-│   ├── components/          # Reusable UI components
-│   ├── screens/            # App screens
-│   │   ├── AuthScreens/    # Login, Register
-│   │   ├── HomeScreen/     # Main dashboard
-│   │   ├── ProductScreens/ # Product listing, details
-│   │   └── CartScreen/     # Shopping cart
-│   ├── navigation/         # Navigation configuration
-│   ├── services/          # API calls and business logic
-│   ├── utils/             # Helper functions
-│   └── assets/            # Images, fonts (Suwannaphum), etc.
-├── package.json
+├── lib/
+│   ├── main.dart              # App entry point
+│   ├── widgets/               # Reusable UI components
+│   ├── screens/               # App screens
+│   │   ├── auth/              # Login, Register screens
+│   │   ├── home/              # Main dashboard
+│   │   ├── products/          # Product listing, details
+│   │   └── cart/              # Shopping cart
+│   ├── models/                # Data models
+│   ├── services/              # API calls and business logic
+│   ├── providers/             # State management
+│   ├── utils/                 # Helper functions
+│   └── config/                # App configuration
+├── assets/
+│   ├── images/                # App images
+│   └── fonts/                 # Suwannaphum font files
+├── pubspec.yaml               # Flutter dependencies
 └── README.md
 ```
 
@@ -152,17 +156,6 @@ STRIPE_PUBLISHABLE_KEY=pk_test_...
 GOOGLE_ANALYTICS_ID=GA_...
 ```
 
-## 📈 Features Roadmap
-
-- [ ] **Wishlist functionality**
-- [ ] **Product reviews and ratings**
-- [ ] **Push notifications**
-- [ ] **Social media integration**
-- [ ] **Advanced search and filters**
-- [ ] **Order tracking**
-- [ ] **Multi-language support**
-- [ ] **Dark mode theme**
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -175,26 +168,18 @@ GOOGLE_ANALYTICS_ID=GA_...
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## 🛡️ Security
-
-- Input validation and sanitization
-- Secure password hashing
-- JWT token authentication
-- HTTPS encryption
-- Regular security audits
 
 ## 📞 Support
 
 For support and queries:
-- 📧 Email: support@shoppify.com
+- 📧 Email: nooraldeinrmadan@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/NooR-El-Deen-Ramadan/shoppify/issues)
 - 💬 Discussions: [GitHub Discussions](https://github.com/NooR-El-Deen-Ramadan/shoppify/discussions)
 
 ## 🙏 Acknowledgments
 
 - Design inspiration from modern e-commerce apps
-- Icons from [Lucide React](https://lucide.dev/)
-- Images and assets from [Unsplash](https://unsplash.com/)
+
 
 ---
 
